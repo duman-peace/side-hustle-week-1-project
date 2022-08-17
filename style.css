@@ -1,0 +1,341 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+img {
+  height: 80vh;
+  width: 100%;
+}
+
+.hold {
+  display: flex;
+  margin: 20px;
+}
+
+.image {
+  height: 90vh;
+}
+
+.hold h3 {
+  text-transform: capitalize;
+  text-align: center;
+  color: rgb(252, 133, 117);
+  font-weight: bolder;
+  position: relative;
+  bottom: 50px;
+}
+
+.ig {
+  position: relative;
+  bottom: 350px;
+  left: 220px;
+  color: white;
+}
+
+.instagram {
+  height: 50px;
+  padding: 5px;
+  position: relative;
+  bottom: 400px;
+  background-color: rgba(8, 56, 31, 0.447);
+}
+
+.welcome {
+  color: rgb(42, 40, 40);
+  text-transform: none;
+  position: relative;
+  left: 0px;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 500px;
+  background-color: rgba(128, 128, 128, 0.172);
+}
+
+.fill {
+  text-transform: uppercase;
+  color: rgb(30, 28, 28);
+  position: relative;
+  left: 0px;
+  top: 0px;
+  padding-left: 40px;
+  background-color: rgba(128, 128, 128, 0.534);
+}
+
+.form {
+  text-transform: capitalize;
+  position: relative;
+  left: 0px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 500px;
+  /* background-color: rgba(128, 128, 128, 0.534); */
+}
+
+input {
+  padding: 5px;
+  /* border: 2px solid blue; */
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 255, 0.636);
+}
+
+input:focus {
+  background-color: blue;
+  color: blue;
+}
+
+.pull {
+  padding: 75px;
+  background-color: rgba(128, 128, 128, 0.172);
+}
+
+.button {
+  background-color: rgb(20, 127, 14);
+  position: relative;
+  left: 40px;
+  bottom: 130px;
+  padding: 10px;
+  width: 200px;
+  border: none;
+  box-shadow: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.push {
+  position: relative;
+  bottom: 120px;
+  left: 40px;
+  text-transform: none;
+}
+
+.login {
+  border: none;
+  color: rgb(20, 127, 14);
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  /* body {
+    position: fixed;
+  } */
+
+  .image {
+    height: 76vh;
+  }
+
+  .ig {
+    position: relative;
+    left: 170px;
+  }
+
+  /* .fill {
+    text-transform: uppercase;
+    color: rgb(30, 28, 28);
+    position: relative;
+    left: 0px;
+    top: 0px;
+    padding-left: 40px;
+    background-color: rgba(128, 128, 128, 0.534);
+  } */
+}
+
+@media (max-width: 980px) {
+  /* body {
+    position: fixed;
+  } */
+
+  .image {
+    height: 76vh;
+  }
+
+  .ig {
+    position: relative;
+    left: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* body {
+    position: fixed;
+  } */
+
+  .image {
+    height: 76vh;
+  }
+
+  .ig {
+    position: relative;
+    left: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* body {
+        position: fixed;
+      } */
+
+  .image {
+    height: 63vh;
+  }
+
+  .hold h3 {
+    font-size: 15px;
+  }
+
+  .ig {
+    position: relative;
+    bottom: 360px;
+    left: 80px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .welcome {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 200px;
+    font-size: 15px;
+  }
+
+  .fill {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: rgba(128, 128, 128, 0.534);
+  }
+
+  .form {
+    text-transform: capitalize;
+    position: relative;
+    left: 0px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 200px;
+    /* background-color: rgba(128, 128, 128, 0.534); */
+  }
+
+  .pull {
+    padding: 68px;
+    background-color: rgba(128, 128, 128, 0.172);
+  }
+
+  .button {
+    position: relative;
+    left: 10px;
+    bottom: 130px;
+    padding: 10px;
+    width: 180px;
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  .push {
+    position: relative;
+    bottom: 120px;
+    left: 10px;
+    text-transform: none;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  /* body {
+      position: fixed;
+    } */
+
+  .image {
+    height: 63vh;
+  }
+
+  .hold h3 {
+    font-size: 10px;
+  }
+
+  .ig {
+    position: relative;
+    bottom: 360px;
+    left: 60px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .welcome {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 200px;
+    font-size: 10px;
+  }
+
+  .fill {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: rgba(128, 128, 128, 0.534);
+  }
+
+  .form {
+    text-transform: capitalize;
+    position: relative;
+    left: 0px;
+    width: 10%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 200px;
+    /* background-color: rgba(128, 128, 128, 0.534); */
+  }
+
+  .pull {
+    padding: 75px;
+    background-color: rgba(128, 128, 128, 0.172);
+  }
+
+  .button {
+    position: relative;
+    left: 10px;
+    bottom: 130px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  .push {
+    position: relative;
+    bottom: 120px;
+    left: 10px;
+    text-transform: none;
+    font-size: 10px;
+  }
+
+  .login {
+    border: none;
+    color: rgb(20, 127, 14);
+    font-weight: bold;
+  }
+}
